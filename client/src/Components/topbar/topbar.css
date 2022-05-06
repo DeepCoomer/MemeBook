@@ -1,0 +1,154 @@
+.topbarContainer{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 10px rgb(243, 241, 241);
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+    -moz-box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.topbarLeft{
+    flex: 3;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: 21px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.topbarCenter{
+    flex: 6;
+}
+
+.searchbar{
+    width: 100%;
+    height: 40px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 173px;
+    cursor: pointer;
+    color: grey;
+}
+
+.searchInput{
+    background-color: #f0f2f5;
+    width: 70%;
+    border: none;
+    padding-left: 20px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.topbarRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.topbarIcons{
+    display: flex;
+}
+
+.topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+  
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 60px;
+    border: 2px solid limegreen;
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 13px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.dropIcon{
+    display: flex;
+    position: relative;
+    right: 14px;
+    cursor: pointer;
+}
+
+.drop {
+    list-style: none;
+}
+  
+.drop li {
+    display: flex;
+    position: relative;
+    top: 53px;
+    right: 50px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cccccc;
+    width: 100px;
+    text-align: center;
+    background: white;
+}
+
+.onPopUpdropIcon{
+    display: flex;
+    position: relative;
+    right: -110px;
+    cursor: pointer;
+}
+
+.onPopUpusername{
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 13px;
+    margin-right: -130px;
+    cursor: pointer;
+}

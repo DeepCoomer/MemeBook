@@ -1,0 +1,188 @@
+.profilerightbar{
+    flex: 3;
+}
+
+.profileRightbarWrapper{
+    padding: 20px;
+}
+
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.postsinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.followersinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.followinginfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.profileRightbarButton{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #1877f2;
+    color: white;
+    cursor: pointer;
+}
+
+.profileRightbarButton:hover{
+    background-color: blue;
+}
+
+.Center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.profilerightbarHr {
+    margin: 20px 0;
+}
+
+.Bottom{
+    display: inline-block;
+    position: relative;
+    right: 21px;
+    /* bottom: 10px; */
+    width: 100%;
+}
+
+.online{
+    display: inline-block;
+    position: relative;
+    /* bottom: 23px; */
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+    color: grey;
+}
+
+.profileRightbarOnlineList{
+    padding: 20px;
+    list-style: none;
+    width: 99%;
+    position: sticky;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(243, 241, 241);
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+    -moz-box-shadow: 0 0 10px rgb(0,0,0);
+    background-color: white;
+}
+
+.onlineFriend{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+.onlineFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 3px solid limegreen;
+    cursor: pointer;
+}
+
+.editForm{
+    position: sticky;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(243, 241, 241);
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+    -moz-box-shadow: 0 0 10px rgb(0,0,0);
+    background-color: white;
+}
+
+.editFormWrapper{
+    padding: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbar{
+    width: 100%;
+    height: 40px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.profileInput{
+    background-color: #f0f2f5;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+
+.profileInput:focus{
+    outline: none;
+}
+
+.editButton{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 34px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #1877f2;
+    color: white;
+    cursor: pointer;
+}
+
+.editButton:hover{
+    background-color: blue;
+}
+
+.canButton{
+    margin-top: 20px;
+    /* width: 100%; */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
